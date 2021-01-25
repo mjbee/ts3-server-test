@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # get latest version from github
-LATEST_VERSION=$(curl -s https://raw.githubusercontent.com/KingJP/teamspeak-egg/master/tsversion)
+LATEST_VERSION=$(curl -s https://github.com/mjbee/ts3-server-test/blob/master/tsversion)
 echo "Latest TeamSpeak3 Version: $LATEST_VERSION"
 
 # get installed version from version_installed.txt
